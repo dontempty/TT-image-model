@@ -13,6 +13,7 @@ rank 변화에 따른 모델의 성능을 비교합니다.
 ![train accuracies](https://github.com/dontempty/TT-image-model/assets/155451345/88b01db4-9d35-43b3-a007-4c8c91e2fa29)  
 
 compression ratio는 배열의 크기를 측정했습니다.  
+
 $compression ratio = \frac{compressed}{original}$
 
 12500개 데이터 중 train: 9000, validation: 800, test: 200
