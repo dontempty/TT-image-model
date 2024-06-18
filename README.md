@@ -1,4 +1,6 @@
 # TT-image-model
+개 고양이 이미지를 분류하는 문제입니다.  
+CNN 모델을 다양한 종류의 이미지로 훈련시키고 성능을 비교합니다.
 
 데이터 출처: <https://www.kaggle.com/c/dogs-vs-cats/data>  
 
@@ -23,4 +25,8 @@ $compression ratio = \frac{compressed}{original}$
 |compression ratio|1|0.052|0.260|0.521|0.781|
 |eval_loss|0.773|0.619|0.643|0.642|0.861|
 |eval_acc|86.0|84.75|86.0|85.25|83.5|
+
+# 결론
+compresion ratio에 따른 성능에는 큰 변화가 없습니다. 
+단순한 개 고양이 분류 문제에서는 압축된 이미지를 활용한느 것이 효율적인 것 같습니다.
 
