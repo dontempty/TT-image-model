@@ -18,7 +18,8 @@ compression ratio는 배열의 크기를 측정했습니다.
 
 $compression ratio = \frac{compressed}{original}$
 
-12500개 데이터 중 train: 9000, validation: 800, test: 200
+12500개 데이터 중 train: 9000, validation: 800, test: 200  
+test 데이터는 원본 이미지를 사용했습니다.
 
 |   |original |10|50|100|150|
 |---|---------|---|---|---|---|
